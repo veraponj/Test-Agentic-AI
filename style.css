@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,18 +15,20 @@ body {
 }
 
 .container {
-    background: white;
+    background: #fff5e6;
     border-radius: 10px;
     padding: 30px;
     width: 100%;
     max-width: 400px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 3px solid #d4af37;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #c41e3a;
     margin-bottom: 20px;
+    font-size: 28px;
 }
 
 .input-group {
@@ -46,12 +48,12 @@ h1 {
 }
 
 #todo-input:focus {
-    border-color: #667eea;
+    border-color: #d4af37;
 }
 
 #add-btn {
     padding: 12px 20px;
-    background: #667eea;
+    background: #c41e3a;
     color: white;
     border: none;
     border-radius: 5px;
@@ -61,7 +63,7 @@ h1 {
 }
 
 #add-btn:hover {
-    background: #5568d3;
+    background: #a01830;
 }
 
 #todo-list {
